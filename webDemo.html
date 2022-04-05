@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCKAP Create Account </title>
+    <link rel="stylesheet" href="webDemo.css"> <!-- Link tag defines "webDemo.css" as a stylesheet -->
+</head>
+
+<body>
+    <div class="center"> <!-- Div tag defines a division/section, used as a container for html elements - easily styled by using the "class" or "id" attribute -->
+        <h1> Create Account </h1>
+        <form method="post"> <!-- Form tag is used to collect user input, method attribute specifies how to send form-data -->
+            <div class="txt_field"> <!-- "txt_field" class is used to style the text field in webDemo style sheet -->
+                <input type="text" required> <!-- Input tag specified for a text element to display - input is required -->
+                <span></span> <!-- Span tag is later used in webDemo stylesheet for styling -->
+                <label> First Name </label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label> Last  Name </label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label> Email </label>
+            </div>            
+            <div class="txt_field">
+                <input type="password" required> <!-- Input tag specified for a password element to display - input is required -->
+                <span></span>
+                <label> Password </label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label> Confirm Password </label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label> Phone Number </label>
+            </div>
+            <div class="txt_field"> 
+                <input type="date" required> <!-- Input tag creates a field element that displays a date - input is required -->
+                <span></span>            
+            </div>
+            <input type="submit" value="Join Now"> <!-- Input tag renders a button element - when click event occurs, the user agent attempts to submit the form to the server -->
+        </form>
+    </div>
+</body>
+</html>
